@@ -114,7 +114,7 @@ public class GestionNotasForm extends JFrame {
         lblEstado.setHorizontalAlignment(SwingConstants.CENTER);
 
         // Configurar tabla
-        String[] columnNames = {"Nombre", "Prof. Espaool", "Prof. Matematicas", "Prof. Sociales", "Prof. Naturales", "Prof. Física", "Promedio", "Estado"};
+        String[] columnNames = {"Nombre", "Prof. Espanol", "Prof. Matematicas", "Prof. Sociales", "Prof. Naturales", "Prof. Física", "Promedio", "Estado"};
         model = new DefaultTableModel(columnNames, 0);
         table = new JTable(model);
         table.setRowHeight(30); // altura de las filas
