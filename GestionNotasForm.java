@@ -26,7 +26,7 @@ public class GestionNotasForm extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
 
-        // Crear panel de pestañas
+        // panel de pestanas
         JTabbedPane tabbedPane = new JTabbedPane();
 
         // Panel de ingreso de datos
@@ -109,7 +109,7 @@ public class GestionNotasForm extends JFrame {
         panelBotones.add(btnEliminar);
         panelBotones.add(btnSalir);
 
-        // Crear etiqueta para mostrar el estado
+        //  etiqueta para mostrar el estado
         lblEstado = new JLabel("Estado del estudiante aparecera aquí.");
         lblEstado.setHorizontalAlignment(SwingConstants.CENTER);
 
@@ -124,7 +124,7 @@ public class GestionNotasForm extends JFrame {
         }
         JScrollPane scrollPane = new JScrollPane(table);
 
-        //   panel de acciones
+        //  panel de acciones
         panelAcciones.add(panelBotones, BorderLayout.NORTH);
         panelAcciones.add(scrollPane, BorderLayout.CENTER);
         panelAcciones.add(lblEstado, BorderLayout.SOUTH);
